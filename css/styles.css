@@ -1,0 +1,167 @@
+body{
+  font-family: "Montserrat";
+
+
+  }
+  .colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+#title {
+background-color: #ff4c68;
+color: #fff;
+padding: 0 0 4rem;
+
+}
+
+.abcd{
+  text-align: left;
+}
+
+#title .container-fluid{
+    padding: 3% 7% 7%;
+}
+
+h1{
+
+    font-family:"Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+.navbar{
+  padding:0 0 2.5rem;
+
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size:  2.5rem;
+
+}
+.nav-item{
+  padding: 0 18px;
+  font-family: "Montserrat-light";
+  font-size: 1.2rem;
+}
+.btn{
+  margin: 3% 5% 3% 0;
+}
+.title-image{
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+.container-fluid{
+  width: 70%;
+  margin: auto;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+#features{
+  position: relative;
+}
+
+h3{
+  font-family: "Montserrat-bold";
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+h2{
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.a, .b, .c{
+  font-size: 4em;
+  color: #ef8172;
+  padding-bottom: 1.5rem;
+
+}
+.c:hover, .a:hover, .b:hover{
+  color:#ff4c68;
+}
+p{
+
+  color: #8f8f8f;
+  font-weight:500;
+
+
+}
+.col-lg-4{
+  padding: 4.5%;
+
+}
+#testimonials{
+  margin: auto;
+
+  text-align: center;
+  background-color:#ef8172;
+  color: #fff;
+
+}
+.carousel-item{
+  padding: 7% 15%;
+
+}
+.dog-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+.press-logo{
+  width:15%;
+  margin: 20px 50px 20px;
+}
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.price-column {
+  padding: 3% 2%;
+}
+#cta{
+  text-align: center;
+}
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#footer{
+  text-align: center;
+  padding: 50px 0;
+}
+.fo{
+  padding:10px 10px;
+}
+@media (max-width: 1028px) {
+
+  .abcd {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+}
